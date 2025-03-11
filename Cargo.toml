@@ -1,0 +1,17 @@
+[package]
+name = "slint-rust-template"
+version = "0.1.0"
+edition = "2021"
+description = "An app for Income diviing also my first slint app."
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+slint = "1.8.0"
+
+[build-dependencies]
+slint-build = "1.8.0"
+
+
+[package.metadata.bundle]
+name="Income divider App"
+identifier="io.github.VARUN3WARE.Income-rust-slint-app"
